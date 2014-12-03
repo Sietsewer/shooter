@@ -4,6 +4,7 @@ using System.Collections;
 public class Flashlight : MonoBehaviour {
 
 	// Use this for initialization
+	public IconController icon;
 	public Keybinds keybinds;
 	public bool lightOn = true;
 	public GameObject aimPoint;
@@ -12,6 +13,7 @@ public class Flashlight : MonoBehaviour {
 	private float closeDist;
 	void Start () {
 		closeDist = Vector3.Distance(this.transform.position, startPoint.transform.position);
+		icon.IsChecked = lightOn;
 	}
 	
 	// Update is called once per frame
@@ -33,10 +35,11 @@ public class Flashlight : MonoBehaviour {
 			if(lightOn){
 				this.light.enabled = false;
 				this.transform.FindChild("PointLight").FindChild("Point light").light.enabled = false;
-
+				icon.IsChecked = false;
 				lightOn = false;
 			} else {
 				this.light.enabled = true;
+				icon.IsChecked = true;
 				this.transform.FindChild("PointLight").FindChild("Point light").light.enabled = true;
 
 				lightOn = true;

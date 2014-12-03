@@ -1,11 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Grenade.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NightVisionCamera.cs">
     <Files>
-      <File FileName="..\..\softwareDev\software_dev\Unity-Client\Assets\Spawner.cs" Line="42" Column="25" />
-      <File FileName="..\..\softwareDev\software_dev\Unity-Client\Assets\NavController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Keybinds.cs" Line="22" Column="25" />
-      <File FileName="Assets\Grenade.cs" Line="20" Column="13" />
+      <File FileName="Assets\GlobalFlags.cs" Line="5" Column="41" />
+      <File FileName="Assets\NightVisionCamera.cs" Line="10" Column="43" />
+      <File FileName="Assets\IconController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Flashlight.cs" Line="1" Column="1" />
+      <File FileName="Assets\CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\GrenadeThrow.cs" Line="1" Column="1" />
+      <File FileName="Assets\Grenade.cs" Line="1" Column="1" />
+      <File FileName="Assets\ParticleSystemTimer.cs" Line="1" Column="1" />
+      <File FileName="Assets\CameraOverlay.cs" Line="14" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
