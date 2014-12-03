@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Flashlight.cs" />
+     <Compile Include="Assets\Grenade.cs" />
      <Compile Include="Assets\Keybinds.cs" />
      <Compile Include="Assets\NightVisionCamera.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />

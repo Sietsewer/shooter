@@ -9,6 +9,7 @@ public class Keybinds : MonoBehaviour{
 	public static KeyCode walkLeft;
 	public static KeyCode jump;
 	public static KeyCode nightVision;
+	public static KeyCode grenade;
 
 	void Start(){
 		flashLight	 = KeyCode.F;
@@ -18,5 +19,6 @@ public class Keybinds : MonoBehaviour{
 		walkLeft	 = KeyCode.D;
 		jump		 = KeyCode.Space;
 		nightVision	 = KeyCode.N;
+		grenade		 = KeyCode.G;
 	}
 }
