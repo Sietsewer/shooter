@@ -17,10 +17,12 @@ public class NightVisionCamera : MonoBehaviour {
 				this.camera.enabled = false;
 				GlobalFlags.NightVision = false;
 				icon.IsChecked = false;
+				light.enabled = false;
 			} else {
 				this.camera.enabled = true;
 				GlobalFlags.NightVision = true;
 				icon.IsChecked = true;
+				light.enabled = true;
 			}
 		}
 	}

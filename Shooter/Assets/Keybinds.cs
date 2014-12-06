@@ -10,6 +10,9 @@ public class Keybinds : MonoBehaviour{
 	public static KeyCode jump;
 	public static KeyCode nightVision;
 	public static KeyCode grenade;
+	public static KeyCode firePrimary;
+	public static KeyCode reload;
+	public static string scrollAxis;
 
 	void Start(){
 		flashLight	 = KeyCode.F;
@@ -20,5 +23,8 @@ public class Keybinds : MonoBehaviour{
 		jump		 = KeyCode.Space;
 		nightVision	 = KeyCode.N;
 		grenade		 = KeyCode.G;
+		firePrimary	 = KeyCode.Mouse0;
+		reload		 = KeyCode.R;
+		scrollAxis	 = "Mouse ScrollWheel";
 	}
 }

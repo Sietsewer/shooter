@@ -46,14 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Ammo.cs" />
+     <Compile Include="Assets\AmmoCounter.cs" />
+     <Compile Include="Assets\AmmoUI.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\CameraOverlay.cs" />
      <Compile Include="Assets\Flashlight.cs" />
      <Compile Include="Assets\GlobalFlags.cs" />
      <Compile Include="Assets\Grenade.cs" />
      <Compile Include="Assets\GrenadeThrow.cs" />
+     <Compile Include="Assets\Gun.cs" />
      <Compile Include="Assets\IconController.cs" />
      <Compile Include="Assets\Keybinds.cs" />
+     <Compile Include="Assets\Magazine.cs" />
      <Compile Include="Assets\NightVisionCamera.cs" />
      <Compile Include="Assets\ParticleSystemTimer.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
