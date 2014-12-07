@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Gun : MonoBehaviour {
 
+	public float damage = 50.0f;
+	public GunFire gunFire;
+
 	public float fireDelay = 0.25f;
 	public bool semiAutomatic = false;
 	public GameObject flash;
@@ -120,6 +123,7 @@ public class Gun : MonoBehaviour {
 
 	void Shoot () {
 		if(ammo.currentMagazine.ammo > 0 && cocked){
+			gunFire.fire();
 			ammo.currentMagazine.ammo--;
 			audioSource.PlayOneShot(clip);
 			flash.light.enabled = true;

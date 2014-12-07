@@ -49,6 +49,8 @@
      <Compile Include="Assets\Ammo.cs" />
      <Compile Include="Assets\AmmoCounter.cs" />
      <Compile Include="Assets\AmmoUI.cs" />
+     <Compile Include="Assets\BoltExplosion.cs" />
+     <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CameraController.cs" />
      <Compile Include="Assets\CameraOverlay.cs" />
      <Compile Include="Assets\Flashlight.cs" />
@@ -56,6 +58,7 @@
      <Compile Include="Assets\Grenade.cs" />
      <Compile Include="Assets\GrenadeThrow.cs" />
      <Compile Include="Assets\Gun.cs" />
+     <Compile Include="Assets\GunFire.cs" />
      <Compile Include="Assets\IconController.cs" />
      <Compile Include="Assets\Keybinds.cs" />
      <Compile Include="Assets\Magazine.cs" />

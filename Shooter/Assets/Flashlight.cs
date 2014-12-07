@@ -10,9 +10,7 @@ public class Flashlight : MonoBehaviour {
 	public GameObject aimPoint;
 	public GameObject startPoint;
 	public GameObject pointLight;
-	private float closeDist;
 	void Start () {
-		closeDist = Vector3.Distance(this.transform.position, startPoint.transform.position);
 		icon.IsChecked = lightOn;
 	}
 	
