@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BoltExplosion : MonoBehaviour {
 	public ParticleSystem flash;
-	//public ParticleSystem gasExplosion;
+	public ParticleSystem gasExplosion;
 	public ParticleSystem sparks;
 	private float timeStart;
 	public float liveTime = 3.0f;
@@ -12,7 +12,7 @@ public class BoltExplosion : MonoBehaviour {
 	void Start () {
 		timeStart = Time.time;
 		flash.Play();
-		//gasExplosion.Play();
+		gasExplosion.Play();
 		sparks.Play();
 	}
 	

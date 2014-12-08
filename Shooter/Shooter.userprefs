@@ -1,25 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BoltExplosion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Bullet.cs">
     <Files>
-      <File FileName="Assets\GunFire.cs" Line="13" Column="70" />
+      <File FileName="Assets\AmmoUI.cs" Line="28" Column="60" />
+      <File FileName="Assets\GunFire.cs" Line="1" Column="1" />
       <File FileName="Assets\Gun.cs" Line="1" Column="1" />
       <File FileName="Assets\NightVisionCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets\GlobalFlags.cs" Line="1" Column="1" />
-      <File FileName="Assets\IconController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Flashlight.cs" Line="1" Column="1" />
-      <File FileName="Assets\CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\GrenadeThrow.cs" Line="1" Column="1" />
-      <File FileName="Assets\Grenade.cs" Line="1" Column="1" />
-      <File FileName="Assets\ParticleSystemTimer.cs" Line="1" Column="1" />
-      <File FileName="Assets\CameraOverlay.cs" Line="1" Column="1" />
       <File FileName="Assets\Keybinds.cs" Line="1" Column="1" />
       <File FileName="Assets\Ammo.cs" Line="1" Column="1" />
       <File FileName="Assets\Magazine.cs" Line="1" Column="1" />
-      <File FileName="Assets\AmmoUI.cs" Line="1" Column="1" />
       <File FileName="Assets\AmmoCounter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Bullet.cs" Line="16" Column="69" />
-      <File FileName="Assets\BoltExplosion.cs" Line="15" Column="5" />
+      <File FileName="Assets\Bullet.cs" Line="33" Column="3" />
+      <File FileName="Assets\BoltExplosion.cs" Line="1" Column="1" />
+      <File FileName="Assets\testScript.cs" Line="17" Column="27" />
+      <File FileName="Assets\Sprinting.cs" Line="19" Column="47" />
+      <File FileName="Assets\HealthSystem.cs" Line="10" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

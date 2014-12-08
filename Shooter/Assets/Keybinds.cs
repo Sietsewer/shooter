@@ -13,6 +13,7 @@ public class Keybinds : MonoBehaviour{
 	public static KeyCode firePrimary;
 	public static KeyCode reload;
 	public static string scrollAxis;
+	public static KeyCode sprint;
 
 	void Start(){
 		flashLight	 = KeyCode.F;
@@ -26,5 +27,6 @@ public class Keybinds : MonoBehaviour{
 		firePrimary	 = KeyCode.Mouse0;
 		reload		 = KeyCode.R;
 		scrollAxis	 = "Mouse ScrollWheel";
+		sprint		 = KeyCode.LeftShift;
 	}
 }

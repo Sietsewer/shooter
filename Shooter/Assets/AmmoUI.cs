@@ -25,11 +25,12 @@ public class AmmoUI : MonoBehaviour {
 			holdReloadStart = Time.time;
 		}
 		if(Input.GetKey(Keybinds.reload)){
-			if(Time.time - holdReloadStart > holdTime){
+			if(Time.time - holdReloadStart > holdTime && !holdReload){
 				holdReload = true;
 				showUI = true;
 				this.image.enabled = showUI;
 				this.text.enabled = showUI;
+				scrollIndex = ammo.currentMagazine.index;
 			}
 			if(holdReload){
 				float scrollVal = Input.GetAxisRaw(Keybinds.scrollAxis);

@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Bullet : MonoBehaviour {
 	private Vector3 lastPosition;
 	public GameObject particles;
+	public float damage = 60.0f;
 	// Use this for initialization
 	void Start () {
 	}
@@ -15,7 +18,12 @@ public class Bullet : MonoBehaviour {
 			Physics.Linecast(lastPosition, transform.position, out hit, 2561);
 			if(hit.collider != null && hit.collider.gameObject.tag != "Player"){
 				Debug.Log("Hit! - " + hit.collider.gameObject.name);
-				Instantiate(particles,this.transform.position, Quaternion.LookRotation(hit.normal));
+				HealthSystem health = hit.collider.GetComponent<HealthSystem>();
+				if(health != null){
+					health.currentHealth -= damage;
+				}
+				damage *= 0.5f;
+				Instantiate(particles,hit.point, Quaternion.LookRotation(hit.normal));
 				if(hit.collider.gameObject.tag != "CanPenatrate"){
 					Destroy(this.gameObject, 2.0f);
 				}

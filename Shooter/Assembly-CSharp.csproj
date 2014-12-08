@@ -59,11 +59,14 @@
      <Compile Include="Assets\GrenadeThrow.cs" />
      <Compile Include="Assets\Gun.cs" />
      <Compile Include="Assets\GunFire.cs" />
+     <Compile Include="Assets\HealthSystem.cs" />
      <Compile Include="Assets\IconController.cs" />
      <Compile Include="Assets\Keybinds.cs" />
      <Compile Include="Assets\Magazine.cs" />
      <Compile Include="Assets\NightVisionCamera.cs" />
      <Compile Include="Assets\ParticleSystemTimer.cs" />
+     <Compile Include="Assets\Sprinting.cs" />
+     <Compile Include="Assets\testScript.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />

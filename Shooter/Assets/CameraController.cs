@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour {
 	private bool nightVisionOn = false;
 	// Use this for initialization
 	void Start () {
-	
+		Screen.lockCursor = true;
 	}
 	
 	// Update is called once per frame
